@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;       
+}
+.wrapper{
+
+    padding: 1%;
+    width:  80%;
+    margin: 0 auto;
+   
+}
+
+.text-center{
+    text-align: center; 
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tabel-admin{
+    width: 100%; 
+}
+.tbl-adminForm{
+    width: 35%;
+    
+}  
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    
+}
+
+/* Buttons */
+.btn-adAdmin{
+    background-color:  #7ed6df;
+    padding: 1%;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-adAdmin:hover{
+    background-color: #22a6b3;
+}
+.btn-adupdate{
+    background-color:  #273c75;
+    padding: 1%;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-adupdate:hover{
+    background-color: #192a56;
+}
+.btn-addelete{
+    background-color:  #ff9ff3;
+    padding: 1%;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-addelete:hover{
+    background-color: #f368e0;
+}
+.btn-adpassword{
+    background-color:  #4cd137;
+    padding: 1%;
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-adpassword:hover{
+    background-color: #44bd32;
+}
+/* Button to back */
+.back-input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2px ;
+    text-align: center;
+    border: 3px solid #09804e;
+    padding: 1%;
+    width: 90px;
+    outline: none;
+    color: white;
+    border-radius: 21px;
+    transition: 0.25px;
+}
+.back-input:hover{
+    background-color: rgb(23 169 169);
+}
+.adding-msg{
+    color:#7ed6df
+}
+.error-msg{
+    color: red;
+}
+
+/*for menue*/
+.menu{
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+.menu ul{
+     list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #259253;
+}
+.menue ul li a:hover{
+    color: #2ed573;
+}
+/* css for mai content*/
+.main-content{
+   
+    background-color:  #969ba3 ;opacity:0.9;;
+    padding: 3% 0;        /*page eke header ekei body ekei space eka*/
+}
+.box-4 {
+    width: 17%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;   /*horizontal*/
+}
+/*for footer*/
+.footer{
+    background-color: #70a1ff;
+    color: azure;
+}  
+/*for admin login*/
+.login{
+    border: 1px solid rgb(81, 83, 83);
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color:#7590d4 ;opacity:0.9;
+}
